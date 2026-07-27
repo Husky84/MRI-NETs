@@ -1,4 +1,4 @@
-MRI-NETs-Survival: Deep Learning for Survival Prediction
+MRI-NETs-Survival: Deep Learning for Biological feature prediction
 Status:​ Under Review / Preprint
 
 📋 Project Overview
