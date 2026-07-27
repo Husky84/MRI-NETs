@@ -2,9 +2,11 @@ MRI-NETs-Survival: Deep Learning for Survival Prediction
 Status:​ Under Review / Preprint
 
 📋 Project Overview
+
 This repository contains the source code for training and evaluating a dual-branch deep learning model that predicts NETs (Neuroendocrine Transdifferentiation)-associated survival risk​ using pre-treatment CE-T1 and T2-FLAIR MRI scans. The model utilizes bulk RNA-seq derived NETs risk scores as the supervisory label (without accessing transcriptomic data during inference).
 
 Key Features:
+
 🧠 Dual-Branch 3D CNN: Processes CE-T1 and T2-FLAIR modalities separately.
 
 📊 Survival Analysis: Outputs a continuous risk score correlated with patient survival.
