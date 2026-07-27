@@ -40,6 +40,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 🚀 Usage
+
 Prepare Data (External)
 Apply for CGGA data access​ at http://www.cgga.org.cn.
 Download the necessary files:
@@ -55,11 +56,12 @@ Kaplan-Meier survival curves (high-risk vs. low-risk)
 These will be saved as PDF files in the results/ folder (which you can create).
 
 📜 Data & Code Availability
-Data Availability
+
 The datasets analyzed during the current study are available in the Chinese Glioma Genome Atlas (CGGA)​ repository (http://www.cgga.org.cn). Access is subject to CGGA data use policies and requires formal application.
 Derived data​ (e.g., out2.csv): Available from the corresponding author upon reasonable request, in compliance with CGGA regulations.
 Example Format: example_out2.csv in this repository demonstrates the required input format.
 
 🙏 Acknowledgements
+
 Thanks to the CGGA consortium for providing the invaluable glioma dataset.
 Thanks to the reviewers for their constructive feedback.
