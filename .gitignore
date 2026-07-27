@@ -1,0 +1,75 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Model weights (use GitHub Releases instead)
+# =========================
+checkpoints/*.pth
+checkpoints/*.ckpt
+checkpoints/*.bin
+!checkpoints/.gitkeep
+
+# =========================
+# Results / figures (keep only examples)
+# =========================
+results/*.pdf
+results/*.png
+results/*.jpg
+!results/example/
+
+# =========================
+# Data (keep only README + examples)
+# =========================
+data/out2.csv
+data/CGGA_172_tuceng.csv
+data/processed/
+data/raw/
+!data/README.md
+!data/example_out2.csv
+!data/example_slice.csv
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+logs/
+runs/
+wandb/
+
+# =========================
+# OS / editor
+# =========================
+Thumbs.db
+desktop.ini
+*.bak
