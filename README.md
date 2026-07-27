@@ -39,6 +39,9 @@ We recommend using a virtual environment:
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
+3.Risk gene‑related parameters
+Calculation of the transcriptomic risk score: Read the six risk genes and their corresponding parameters from the risk gene‑related parameters.rdata file, and sum them to obtain the score. If non‑CGGA data are used, batch adjustment with the TCGA‑mRNAseq_693 project must be performed prior to calculation.
+
 🚀 Usage
 
 Prepare Data (External)
